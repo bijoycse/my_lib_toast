@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MyToastLib"
 include ':app'
+include ':app:MyToastLibraryModule'
