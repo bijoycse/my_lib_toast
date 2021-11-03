@@ -11,5 +11,5 @@ allprojects {
   
   > step : 2 #Add the dependency
   	dependencies {
-	        implementation 'com.github.bijoycse:my_lib_toast:Tag'
+	        implementation 'com.github.bijoycse:my_lib_toast:1.0.0'
 	}
