@@ -6,12 +6,13 @@ import android.os.Bundle;
 
 import com.example.mytoastlibrarymodule.MyToastClass;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        MyToastClass.showToast(this,"Show toast from my library!!!");
+        MyToastClass.showToast(this,"hello");
     }
 }
